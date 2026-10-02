@@ -1,2 +1,55 @@
 260914
 -Erstellung Git-Ordnerstruktur
+
+261002
+ein PCB mit
+-Treiber, den wir haben
+-BMS IC: IP5306 (+USB, Akku)
+-ESP32
+-Funkverbindung
+
+-Idee: Treiber ersetzten mit TI DRV8410
+
+KI-generiert:
+                         USB-C
+                       5 V Eingang
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │     IP5306      │
+                  │                 │
+                  │  Li-Ion Charger │
+                  │       +         │
+                  │  5-V-Boost      │
+                  │       +         │
+                  │  Akku-Schutz    │
+                  └───────┬─────────┘
+                          │
+                    1S Li-Ion/LiPo
+                    3,0 ... 4,2 V
+                          │
+                          │
+                  ┌───────┴───────┐
+                  │     Akku      │
+                  └───────┬───────┘
+                          │
+                          ▼
+                    IP5306 Boost
+                          │
+                       5,1 V
+                     Hauptversorgung
+                          │
+          ┌───────────────┼────────────────┐
+          │               │                │
+          ▼               ▼                ▼
+    ┌───────────┐   ┌───────────┐   ┌────────────┐
+    │ DRV8410   │   │  Servo    │   │ 3,3-V-Buck │
+    │ Motor-    │   │ Lenkung   │   │            │
+    │ Treiber   │   │           │   │            │
+    └─────┬─────┘   └─────┬─────┘   └─────┬──────┘
+          │               │                │
+          ▼               │                ▼
+     DC-Motor             │              ESP32
+          │               │                │
+          ▼               │                │
+     Differential        Lenkung     Steuerung

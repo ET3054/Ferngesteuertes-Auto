@@ -3,14 +3,16 @@
 
 261002
 ein PCB mit
--Treiber, den wir haben
+-Treiber L298N, den wir haben
 -BMS IC: IP5306 (+USB, Akku)
 -ESP32
 -Funkverbindung
 
--Idee: Treiber ersetzten mit TI DRV8410
+-Idee: Treiber ersetzten mit TI DRV8410 (weniger Verluste)
+-3,3 V Buck Converter für für ESP32 Spannungsebene
 
-KI-generiert:
+KI-generiert (unvollständig):
+
                          USB-C
                        5 V Eingang
                            │

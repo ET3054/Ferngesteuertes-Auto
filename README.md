@@ -17,7 +17,7 @@ Ferngesteuertes-Auto/
   <li>
     📁 <a href="./DOCUMENTS/">DOCUMENTS/</a>
     <ul>
-      <li> <a href="./DOCUMENTS/Lastenheft">Lastenheft</a></li>
+      <li> <a href="./DOCUMENTS/261002_Lastenheft_V2.pdf">Lastenheft</a></li>
       <li>
         📁 <a href="./DOCUMENTS/DATASHEETS/">DATASHEETS/</a>
         <ul>

@@ -55,3 +55,7 @@ KI-generiert (unvollständig):
           │               │                │
           ▼               │                │
      Differential        Lenkung     Steuerung
+
+
+261008
+Idee: LDO Spannungs Regulator statt Buck Converter für stabilere Spannungsversorgung? Hängt davon ab, wie sensibel der ESP ist.

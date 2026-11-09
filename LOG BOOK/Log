@@ -59,3 +59,15 @@ KI-generiert (unvollständig):
 
 261008
 Idee: LDO Spannungs Regulator statt Buck Converter für stabilere Spannungsversorgung? Hängt davon ab, wie sensibel der ESP ist.
+
+261109
+Bauteile:
+  Akku ca. 3,7V (Panasonic NCR18650B Spezial-Akku)          
+  Boost (IP5306)        
+  3,3V Buck Converter (TPS62825 plus zwei externe Widerstände)
+  Servo Motor (Muezi 9V Servo Motor MG90S)
+  DC Motor (RUNCCI-YUN 8pcs DC3V-6V Micro DC Motor,DC Getriebemotor TT Motor für Arduino)
+  DC Motor Treiber (DRV8410)
+  ESP32
+  
+  

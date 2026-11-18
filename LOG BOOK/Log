@@ -71,7 +71,16 @@ Bauteile:
   ESP32
 
 -Schalter zum aktivieren der Batterie
--gleilches PCB Layout mehrfach auf eine Platte zum brechen, falls fehler
+-gleiches PCB Layout mehrfach auf eine Platte zum brechen, falls fehler
 -Teststellen/Messpunkte
-  
-  
+
+261118
+Zusätzlich zum PSB zu bestellende Bauteile:
+	DC Motor Treiber (DRV8410)
+	3,3V Buck Converter (TPS62825)
+  	Boost (IP5306)
+	Akku ca. 3,7V (Panasonic NCR18650B Spezial-Akku)
+  	2x 19er Pinleiste für ESP32 Breakout (2,54 mm Standard???)
+	PCB Schraubklemme
+		2 Mal 1x2
+		1 Mal 1x3

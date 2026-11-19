@@ -69,3 +69,25 @@ Testing/
 
 # KiCad backup folders
 *-backups/
+
+# Lokale KiCad History
+.history/
+
+# KiCad lokale Dateien
+*.kicad_prl
+fp-info-cache
+.history/
+
+# KiCad temporäre Routing-Dateien
+temp-freerouting.dsn
+
+# KiCad lokale Dateien
+*.kicad_prl
+fp-info-cache
+.history/
+
+# KiCad temporäre Routing-Dateien
+temp-freerouting.dsn
+
+# Fertigungs-Plugin-Einstellungen
+fabrication-toolkit-options.json
